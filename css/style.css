@@ -1,0 +1,207 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.3%;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar:hover {
+  background: #555;
+}
+
+
+header {
+  display: flex;
+  margin: 4%;
+}
+
+img {
+  width: 100%;
+}
+
+.emblem {
+  width: 26%;
+}
+
+.infoOne {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftContent {
+  width: 26%;
+}
+
+.rightContent {
+  width: 100%;
+  text-align: start;
+  padding-bottom: 3%;
+}
+
+.personalData {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.contactList {
+  padding-top: 5%;
+}
+
+.contact {
+  padding-bottom: 1rem;
+}
+
+.datePOne {
+  color: rgb(85, 116, 136);
+}
+
+.alteDate01 {
+  display: flex;
+  padding-top: 12%;
+}
+
+.position {
+  padding-top: 5.4%;
+}
+
+.workExp {
+  padding-top: 46%;
+  padding-bottom: 15%;
+}
+
+.subContent {
+  display: flex;
+  padding-top: 2%;
+}
+
+.content1 {
+  width: 26%;
+}
+
+.content2 {
+  width: 100%;
+}
+
+.subContentWorkExp {
+  display: flex;
+  /* padding-top: 11%; */
+}
+
+.content1WE {
+  width: 26%;
+}
+
+.content2WE {
+  width: 100%;
+}
+
+/* .spaceS {
+  padding-left: 0.2rem; 
+} */
+
+hr {
+  border: 1.5px solid rgb(85, 116, 136);
+  margin-left: 24%;
+  margin-top: 5%;
+}
+
+/* .periods {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  width: 26%;
+}
+
+.periodsDetails {
+  width: 100%;
+}
+
+.experience {
+  display: flex;
+  margin-top: 1.8%;
+}
+
+.periodsList {
+  padding-bottom: 3rem;
+} */
+
+
+
+footer {
+  margin: 5rem;
+  margin-bottom: 7rem;
+  text-align: center;
+}
+
+.content1P{
+  width: 26%;
+  padding-bottom: 0.5rem;
+}
+
+.content2P{
+  width: 100%;
+}
+
+.subContentWorkExp01 {
+  display: flex;
+  padding-top: 4%;
+}
+
+.educationT {
+  display: flex;
+  /* padding-top: 3%; */
+}
+
+.personalSkills {
+  display: flex;
+  /* padding-top: 3%; */
+}
+
+.personalSkills01 {
+  display: flex;
+  /* padding-top: 1.7%; */
+}
+
+.content1PS {
+  width: 100%;
+  
+}
+
+header h1 {
+  font-size: x-large;
+  color: rgb(85, 116, 136);
+}
+
+h2 {
+  margin-bottom: 34px;
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
+}
+
+h5 {
+  text-align: end;
+}
